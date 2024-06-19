@@ -17,7 +17,7 @@ const HairServicesCard = () => {
                                     src={record.image}
                                 />
                             }
-                            className='w-[300px]'
+                            className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5'
                             key={record.cardTitle}
 
                         >

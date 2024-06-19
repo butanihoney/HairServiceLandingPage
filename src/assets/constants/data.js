@@ -1,4 +1,4 @@
-export  const imgList = ["https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png","https://i.ibb.co/TDyXpvv/12.png"]
+export const imgList = ["https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png", "https://i.ibb.co/TDyXpvv/12.png"]
 
 export const cardData = [
     {
@@ -23,7 +23,7 @@ export const cardData = [
         cardTitle: "Title 3",
         reviews: 78,
         rating: 4.8,
-        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra leo.",
+        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra leo amet, consectetur adipiscing .",
         duration: 30,
         price: 40,
         image: "https://i.ibb.co/tq4FxTx/fa75c2172b47d9c60f6d7728bd98af3d.png"
@@ -84,7 +84,7 @@ export const cardData = [
     }
 ];
 
-export const ratingCard=[
+export const ratingCard = [
     {
         details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin."
     },

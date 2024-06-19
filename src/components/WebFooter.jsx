@@ -1,13 +1,10 @@
 import React from 'react'
-import { Button, Divider, Input, Layout, Typography } from 'antd';
+import { Button, Divider, Input } from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons';
-
-const { Footer } = Layout;
-const { Link } = Typography;
 
 const WebFooter = () => {
     return (
-        <Footer className="bg-[#E6E6FA;] text-black p-4 mt-10 w-full">
+        <div className="bg-[#E6E6FA;] text-black mt-10 mr-[2%] ml-[2%] w-[96%] rounded-lg">
             <div className="flex flex-col w-full">
                 <div className='flex flex-col items-center mt-10 justify-center'>
                     <div className="text-3xl text-center font-bold mb-6 font-josef">Looking for an Urban therapist near you?</div>
@@ -55,7 +52,7 @@ const WebFooter = () => {
                     </div>
                 </div>
             </div>
-        </Footer>
+        </div>
     )
 }
 

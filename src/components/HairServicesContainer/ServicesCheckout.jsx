@@ -6,7 +6,7 @@ const ServicesCheckout = () => {
     const [count, setCount] = useState(0)
     return (
         <>
-            <div className="lg:w-[500px] md:w-[400px] sm:w-[400px] border border-solid shadow-sm rounded relative">
+            <div className="min-w-[30%] max-w-[80%] border border-solid shadow-lg rounded relative">
                 <div className="flex flex-col gap-3  ml-5 mr-5 mt-5 h-[700px]">
                     <div className="font-bold font-serif">Haircut</div>
                     <div>

@@ -9,7 +9,7 @@ const HairServicesContainer = () => {
 
                 <HairServicesCard />
             </div>
-            <div className='absolute left-[50%] md:left-[60%] lg:left-[60%] '>
+            <div className='absolute left-[50%] md:left-[63%] lg:left-[63%] '>
 
                 <ServicesCheckout />
             </div>

@@ -8,12 +8,12 @@ const CustomerRateCard = () => {
     ));
 
     return (
-        <div className='ml-[5%] flex gap-5 mt-[2%]'>
+        <div className='ml-[5%] mr-[5%] flex gap-5 mt-[2%] overflow-x-auto'>
             {
                 ratingCard.map((record) => {
                     return (
                         <Card
-                            className='w-[300px]'
+                            className='w-[300px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5'
                         >
                             <span className="text-2xl text-[#A1A1C4]">{stars}</span>
                             <div className='mt-[3%]'>{record.details}</div>
